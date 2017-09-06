@@ -24,6 +24,7 @@ Partie 2 : typage
 function saluer(nom) {
     console.log('coucou ' + nom);
 }
+
 function chaineCoucou() {
-    return 'coucou';
+  return 'coucou';
 }
