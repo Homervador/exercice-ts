@@ -38,6 +38,6 @@ function rien(): void{
 }
 function jamais(): never {
 	while(true){
-		
+
 	}
 }
