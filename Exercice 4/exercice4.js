@@ -24,3 +24,25 @@ function sommeTableau(tableau) {
 var tab = [[0, 1], [2, 3]];
 var total = sommeTableau(tab);
 console.log(total); // outputs 1
+//3.
+function sommeTableauVar(tableau) {
+    var somme = 0;
+    for (var i = 0; i < tableau.length; i++) {
+        var ligne = tableau[i];
+        for (var j = 0; j < ligne.length; j++) {
+            somme += ligne[j];
+        }
+    }
+    return somme;
+}
+//4.
+function sommeTableauLet(tableau) {
+    var somme = 0;
+    for (var i = 0; i < tableau.length; i++) {
+        var ligne = tableau[i];
+        for (var i_1 = 0; i_1 < ligne.length; i_1++) {
+            somme += ligne[i_1];
+        }
+    }
+    return somme;
+}
